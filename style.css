@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(119, 177, 216);
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 30px auto;
+    height: auto;
+    width: 256px;
+    border: 2px solid;
+    margin-top: 150px;
+    padding: 0px 20px 20px 20px;
+    background-color: rgb(52, 23, 146);
+    border-radius: 20px;
+}
+.darvin{
+
+    margin-bottom: 40px;
+    margin-left: 15px;
+}
+.green{
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.vten{
+    margin-bottom: 20px;
+    margin-left: 5
+    px;
+}
+.slayder{
+    width: 256px;
+    height: 256px;
+    margin-top: 20px;
+    border-radius: 10%;
+    margin: 30px solid;
+    position: relative;
+    overflow: hidden;
+        background-color: rgb(230, 230, 230);
+       transition: 1s;
+}
+.slayder:hover{
+    transition: 1s;
+  
+    box-shadow: 5px 5px 5px 5px  rgb(150, 142, 142);
+    transform: rotate(360deg)
+   
+}
+.slayder-dedline{
+    height: 256px;
+    width: 1200px;
+    position: relative;
+    transition: all ease-out 0.1s;
+}
+.btn{
+    margin-top: 20px;
+    
+    
+
+}
+h1{
+    color: rgb(14, 61, 116);
+}
+.START{
+    background-color: rgb(120, 116, 155);
+    border: red;
+    border-radius: 20%;
+    width: 100px;
+    height: 50px;
+    transition: 1s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.NEXT{
+    background-color: rgb(120, 116, 155);
+    border: red;
+    width: 100px;
+    height: 50px;
+    border-radius: 20%;
+    margin-left: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s;
+}
+.START:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px  rgb(150, 142, 142);
+}
+
+.NEXT:hover{
+    transition: 1s;
+    box-shadow: 5px 5px 5px 5px  rgb(150, 142, 142);
+}
+
